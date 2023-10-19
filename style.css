@@ -83,10 +83,6 @@ header {
   border: 1px solid red;
 }
 
-.main-sections img {
-  max-width: 100%;
-}
-
 .main-sections a {
   font-family: 'Fraunces', serif;
   font-weight: 900;
@@ -112,6 +108,10 @@ header {
 .lower-images {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+}
+
+.lower-images img {
+  width: 100%;
 }
 
 /* Client Testimonials */
