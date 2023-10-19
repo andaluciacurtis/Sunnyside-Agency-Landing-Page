@@ -22,6 +22,10 @@ h1 {
   font-family: 'Fraunces', serif;
   font-weight: 900;
   color:var(--white);
+
+  font-size: 35px;
+  letter-spacing: 5px;
+  padding: 30px 30px;
 }
 
 h2 {
@@ -47,10 +51,17 @@ a {
 
 /* COMPONENTS */
 /* Heading + title */
+
+html {
+  max-width: 500px;
+}
+
 .title-container {
   background-image: url("images/mobile/image-header.jpg");
-  background-size: contain;
-  padding: 10px;
+  background-position: bottom center;
+  height: 600px;
+
+  text-align: center;
 }
 
 .title-container a {
@@ -60,6 +71,7 @@ a {
 header {
   display: flex;
   justify-content: space-between;
+  padding: 30px 20px;
 }
 
 /* Sections */
