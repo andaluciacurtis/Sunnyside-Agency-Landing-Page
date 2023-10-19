@@ -23,7 +23,7 @@ h1 {
   font-weight: 900;
   color:var(--white);
 
-  font-size: 35px;
+  font-size: 40px;
   letter-spacing: 5px;
   padding: 30px 30px;
 }
@@ -59,7 +59,9 @@ html {
 .title-container {
   background-image: url("images/mobile/image-header.jpg");
   background-position: bottom center;
-  height: 600px;
+  background-size: cover;
+
+  padding-bottom:175px;
 
   text-align: center;
 }
@@ -76,6 +78,7 @@ header {
 
 /* Sections */
 .main-sections {
+  display: grid;
   grid-auto-rows: 1fr;
 }
 .main-sections a {
@@ -90,10 +93,6 @@ header {
 
 .photography-container {
   background-image: url("images/mobile/image-photography.jpg");
-}
-
-.main-sections {
-  display: grid;
 }
 
 .lower-images {
