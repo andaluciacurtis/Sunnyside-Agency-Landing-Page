@@ -49,6 +49,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* COMPONENTS */
 /* Heading + title */
 
@@ -83,6 +87,10 @@ header {
   border: 1px solid red;
 }
 
+.transform-container {
+  grid-row-start: 1;
+}
+
 .main-sections a {
   font-family: 'Fraunces', serif;
   font-weight: 900;
@@ -108,10 +116,6 @@ header {
 .lower-images {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-}
-
-.lower-images img {
-  width: 100%;
 }
 
 /* Client Testimonials */
