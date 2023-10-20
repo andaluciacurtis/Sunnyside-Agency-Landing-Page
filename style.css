@@ -111,11 +111,11 @@ header {
   text-decoration-thickness: 3px;
 }
 
-.main-sections a:nth-of-type(1) {
+.transform-container a {
   text-decoration-color: var(--yellow);
 }
 
-.main-sections a:nth-of-type(2) {
+.stand-out-container a {
   text-decoration-color: var(--soft-red);
 }
 
