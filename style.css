@@ -94,6 +94,10 @@ header {
   justify-content: center;
 }
 
+.main-sections img {
+  height: 100%;
+}
+
 .main-sections a {
   font-family: 'Fraunces', serif;
   font-weight: 900;
