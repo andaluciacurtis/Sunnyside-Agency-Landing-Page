@@ -83,12 +83,15 @@ header {
   grid-auto-rows: 1fr;
 }
 
-.main-sections div {
-  border: 1px solid red;
-}
-
 .transform-container {
   grid-row-start: 1;
+}
+
+.transform-container, .stand-out-container {
+  padding: 10px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .main-sections a {
@@ -121,6 +124,7 @@ header {
 /* Client Testimonials */
 .client-testimonials {
   text-align: center;
+  padding: 80px;
 }
 
 .all-testimonial-container {
@@ -141,4 +145,9 @@ footer {
   background-color:var(--dark-moderate-cyan);
   text-align: center;
   align-items: center;
+  padding: 30px;
+}
+
+footer a {
+  color: var(--dark-desaturated-cyan);
 }
