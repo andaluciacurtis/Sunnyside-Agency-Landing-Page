@@ -119,6 +119,10 @@ header {
   text-decoration-color: var(--soft-red);
 }
 
+.stand-out-image-container, .transform-image-container {
+  background-size: cover;
+}
+
 .graphic-design-container, .photography-container {
   padding: 50% 20% 0 20%;
   background-size: cover;
@@ -178,6 +182,14 @@ footer a {
     background-image: url("images/mobile/image-header.jpg");
   }
 
+  .transform-image-container {
+    background-image: url("images/mobile/image-transform.jpg");
+  }
+
+  .stand-out-image-container {
+    background-image: url("images/mobile/image-stand-out.jpg");
+  }
+
   .graphic-design-container {
     background-image: url("images/mobile/image-graphic-design.jpg");
   }
@@ -197,6 +209,14 @@ footer a {
   }
   .main-sections {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .transform-image-container {
+    background-image: url("images/desktop/image-transform.jpg");
+  }
+
+  .stand-out-image-container {
+    background-image: url("images/desktop/image-stand-out.jpg");
   }
 
   .graphic-design-container {
