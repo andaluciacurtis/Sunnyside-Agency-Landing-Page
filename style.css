@@ -71,6 +71,16 @@ img {
   text-align: center;
 }
 
+header img {
+  height: 100%;
+}
+
+.title-container a:nth-child(4) {
+  border-radius: 30px;
+  font-family: 'Fraunces', serif;
+}
+
+
 header {
   display: flex;
   justify-content: space-between;
@@ -270,8 +280,6 @@ footer path {
   .title-container a:nth-child(4) {
     background-color: var(--yellow);
     color: var(--very-dark-desaturated-blue);
-    border-radius: 30px;
-    font-family: 'Fraunces', serif;
   }
 
   .title-container {
@@ -320,6 +328,12 @@ footer path {
 
   .title-container a {
     color: var(--white);
+    padding: 15px 20px;
+  }
+
+  .title-container a:nth-child(4) {
+    background-color: var(--white);
+    color: var(--very-dark-desaturated-blue);
   }
 
   .main-sections {
