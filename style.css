@@ -5,7 +5,7 @@
   --yellow: hsl(51, 100%, 49%);
   --dark-desaturated-cyan: hsl(167, 40%, 24%);
   --dark-blue:hsl(198, 62%, 26%);
-  --dark-moderate-cyan: hsl(168, 34%, 41%);
+  --dark-moderate-cyan: hsl(168, 51%, 64%);
   
   --very-dark-desaturated-blue: hsl(212, 27%, 19%);
   --very-dark-grayish-blue: hsl(213, 9%, 39%);
@@ -145,7 +145,7 @@ header {
 /* Client Testimonials */
 .client-testimonials {
   text-align: center;
-  padding: 80px;
+  padding: 100px;
 }
 
 .all-testimonial-container {
@@ -173,11 +173,30 @@ footer {
   background-color:var(--dark-moderate-cyan);
   text-align: center;
   align-items: center;
-  padding: 30px;
+  padding: 50px 30px 30px 30px;
 }
 
 footer a {
   color: var(--dark-desaturated-cyan);
+  padding: 15px;
+  font-size: 15px;
+}
+
+footer path {
+  fill: var(--dark-desaturated-cyan);
+}
+
+.links {
+  padding-top: 30px;
+}
+
+.social-media {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.social-media img {
+  padding: 10px;
 }
 
 @media (max-width: 704px) {
